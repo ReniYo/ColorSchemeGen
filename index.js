@@ -23,7 +23,7 @@ function render() {
 
 function renderColors() {
     for(let i = 0; i < colorHex.length; i++) {
-            document.getElementById(`bkg-color${colorHex[i]}`).style.backgroundColor = `#${colorHex[i]}`;
+            document.getElementById(`bkg-color${colorHex[i]}`).style.backgroundColor = `#${colorHex[i]}`
     }
 }
 
